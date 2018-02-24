@@ -1,5 +1,5 @@
 # Workflow Zero
-### Use the latest and greatest CSS and vanilla JS today!
+### Use the latest and greatest CSS and vanilla JS today - with transpiled ES6 and autoprefixed CSS that works even on IE 10!
 
 A starter workflow for beginners (with example image lazy loading and array/object spread).
 
