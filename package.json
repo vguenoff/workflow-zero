@@ -1,0 +1,41 @@
+{
+  "name": "workflow-zero",
+  "version": "1.0.0",
+  "description": "A starter workflow for beginners.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run dev\" \"npm run lite\"",
+    "dev": "cross-env NODE_ENV=development webpack --watch --progress --colors",
+    "lite": "lite-server",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "author": "vguenoff",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "concurrently": "^3.5.1",
+    "cross-env": "^5.1.3",
+    "css-loader": "^0.28.10",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "ie > 10"
+  ]
+}
