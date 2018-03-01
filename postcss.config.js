@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
-    require('autoprefixer')({ grid: true })
-  ]
-}
+    require('postcss-fixes')(),
+    require('autoprefixer')({ grid: true }),
+  ],
+};
